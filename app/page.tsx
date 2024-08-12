@@ -1,10 +1,9 @@
-import Image from 'next/image';
-import ThemeToggle from './components/theme-toggle';
+import Navbar from './components/navbar';
 
 export default function Home() {
 	return (
-		<main className="flex justify-center">
-			<ThemeToggle />
+		<main>
+			<Navbar />
 		</main>
 	);
 }
