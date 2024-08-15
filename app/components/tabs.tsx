@@ -9,7 +9,7 @@ const Tabs = () => {
 							className="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
 						>
 							<svg
-								className="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300"
+								className="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300 hidden sm:block"
 								aria-hidden="true"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="currentColor"
@@ -27,7 +27,7 @@ const Tabs = () => {
 							aria-current="page"
 						>
 							<svg
-								className="w-4 h-4 me-2 text-blue-600 dark:text-blue-500"
+								className="w-4 h-4 me-2 text-blue-600 dark:text-blue-500 hidden sm:block"
 								aria-hidden="true"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="currentColor"
@@ -44,7 +44,7 @@ const Tabs = () => {
 							className="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
 						>
 							<svg
-								className="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300"
+								className="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300 hidden sm:block"
 								aria-hidden="true"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="currentColor"
@@ -61,7 +61,7 @@ const Tabs = () => {
 							className="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
 						>
 							<svg
-								className="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300"
+								className="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300 hidden sm:block"
 								aria-hidden="true"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="currentColor"
