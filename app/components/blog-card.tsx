@@ -1,7 +1,7 @@
 const BlogCard = () => {
 	return (
 		<main>
-			<div className="max-w-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-white rounded-lg shadow-lg dark:shadow-md overflow-hidden">
+			<div className="max-w-md bg-white dark:bg-gray-900 text-gray-900 dark:text-white rounded-lg shadow-lg dark:shadow-md overflow-hidden">
 				{/* Image Section */}
 				<img
 					className="w-full h-48 object-cover"
@@ -37,7 +37,7 @@ const BlogCard = () => {
 							<p className="text-gray-500 dark:text-gray-400">Aug 15, 2021 · 16 min read</p>
 						</div>
 					</div>
-					<a href="javascript:;" className="flex mt-8 cursor-pointer text-lg text-violet-700 font-semibold">
+					<a href="javascript:;" className="flex mt-8 cursor-pointer text-lg text-[#2563EA] font-semibold">
 						Read more..
 					</a>
 				</div>
